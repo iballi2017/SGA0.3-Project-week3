@@ -1,17 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <!--  Meta  -->
   <meta charset="UTF-8" />
-  <!--<meta name="viewport" content="width=device-width,initial-scale=1"> -->
  �<title>blogpage</title>
   
-  <!--  Styles  -->
-  <!--<link rel="stylesheet" type="text/css" href="index2.css"> -->
-  <link rel="stylesheet" href="blogpage.css">
-  <link rel="stylesheet" href="bootsrap.min.css">
-  <!--<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/fonts-awesome.min.css">-->
+  <styles>
+  body{
+  background-color: #fff;
+}
+hr{
+  width: 100px;
+  margin-left: 620px;
+}
+.bottom-hr{
+  width: 100%;
+  margin:0;
+  border-width: 3px;
+}
+a{
+  text-decoration: none;
+  display:inline-block;
+  padding: 8px 16px;
+}
+nav{
+  background-color:#fff;
+  width:100%;
+  height: 40px;
+}
+.nav-menu{
+  float:right;
+}
+.nav-menu a{
+  text-decoration: none;
+  margin: 10px;
+}
+.nav-menu a:hover{
+  text-decoration: underline;
+  color:#00f;
+}
+.heading{
+  background-color:#fff;
+  font-family: arial;
+  font-size: 50px;
+  text-align:center;
+  margin:50px 100px 0 100px;
+}
+.heading .previous{
+  background-color:#f1f1f1;
+  color:#000;
+  border:30px;
+}
+.heading .next{
+  background-color:#f1f1f1;
+  color:#000;
+  border:30px;
+}
+.reaction{
+  background-color:#fff;
+  font-family: arial;
+  font-size: 11px;
+  float:center;
+  margin-bottom:100px;
+  padding-left: 515px;
+  padding-top: -50px;
+}
+.point1{
+  margin-left:20px;
+}
+.point2{
+  margin-right:20px;
+}
+article{
+  text-align:justify;
+  margin: -50px 100px 0 100px;
+  font-size: 20px;
+  line-height: 40px;
+}
+img{
+  height:400px;
+  width:90%;
+  margin:20px;
+}
+.bottom-reaction{
+  height:50px;
+  background-color:#fff;
+  font-family: arial;
+  font-size: 11px;
+  float:0;
+  margin-bottom:50px;
+  padding-left: 0px;
+  padding-top: 30px;
+}
+.bottom-reaction .platform{
+  float: left;
+}
+.bottom-reaction .reaction-dup{
+  float:right;
+  margin-right:86px;
+}
+.bottom-reaction .reaction-dup a:hover{
+  color:#00f;
+}
+.bottom-reaction .platform a{
+  background-color: #ccc;
+  border-radius:5px;
+  margin:5px;
+}
+
+
+.comment-section{
+  float:left;
+  margin:-30px 0 0 100px;
+}
+.comment-section input{
+  border-radius:10px;
+  height:20px;
+  width:300px;
+  padding:10px;
+  }
+.comment-section button{
+  background-color:rgba(0,0,200,0.3);
+  border-radius:8px;
+  height:40px;
+  width:60px
+}
+.comment-section button:hover{
+  background-color:rgba(0,100,200,0.3);
+}
+.pre-nex {
+  background-color:#fff;
+  font-family: arial;
+  font-size: 17px;
+  text-align:center;
+  margin:50px 100px 0 100px;
+}
+.pre-nex .previous{
+  background-color:#f1f1f1;
+  color:#000;
+  border:30px;
+}
+.pre-nex .next{
+  background-color:#f1f1f1;
+  color:#000;
+  border:30px;
+}
+.footer{
+  width: 100%;
+  height: 60PX;
+  background-color: #ccc;
+  margin-top:140px;
+  color:#000;
+  padding: 60px;
+}
+.footer p{
+  margin-top: 5px;
+  color: #ccc2344;
+}
+  </styles>
 </head>
   <body>
     <nav>
