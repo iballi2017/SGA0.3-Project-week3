@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
- �<title>blogpage</title>
   
-  <styles>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <!--<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+<title>blogpage</title>
+  
+  <!--  Styles  -->
+  <!--<link rel="stylesheet" type="text/css" href="index2.css"> -->
+  <link rel="stylesheet" href="blogpage.css">
+  <link rel="stylesheet" href="bootsrap.min.css">
+  <!--<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/fonts-awesome.min.css">-->
+  
+  <style type="text/css">
   body{
   background-color: #fff;
 }
@@ -156,7 +165,7 @@ img{
   margin-top: 5px;
   color: #ccc2344;
 }
-  </styles>
+  </style>
 </head>
   <body>
     <nav>
@@ -244,7 +253,7 @@ img{
        	margin-left:5px">&#8250;</a></span>
   </div>
   <nav class="footer">
-Copyright � 2015 Ilja Miskov
+Copyright ï¿½ 2015 Ilja Miskov
 <p><em>The only way to great work is to love what you do</em>
 	<!--  <div>
 <a href="#" class="fa fa-facebook"></a>
