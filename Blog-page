@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <!--<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+ �<title>blogpage</title>
+  
+  <!--  Styles  -->
+  <!--<link rel="stylesheet" type="text/css" href="index2.css"> -->
+  <link rel="stylesheet" href="blogpage.css">
+  <link rel="stylesheet" href="bootsrap.min.css">
+  <!--<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/fonts-awesome.min.css">-->
+</head>
+  <body>
+    <nav>
+      <a href="#" style="height:40px; font-size:35px; margin-left:80px; color:#000">&#9929</a>
+      <div class="nav-menu" style="margin-right:80px">
+        <a href="#">Work</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contract</a>
+      </div>
+    </nav>
+    <div class="heading">
+      <span style="float: left; height:50px"><a href="#" class="previous round">&#8249;</a></span>
+     Goodbye, Photoshop
+       <span style="float: right"><a href="#" class="next round">&#8250;</a></span>
+    </div>
+    <hr>
+    <div class="reaction">
+      August 29, 2015 
+      <span class="point1"><b>&#8729</b></span>
+      <a href="#" style="text-decoration:none; color:red; margin-right:-10px"> &#x2764 125 likes</a>
+      <a href="#" style="text-decoration:none; color:#000"><span class="point2"><b>&#8729</b></span> &#128172 6 comments</a>
+     
+    </div>
+    <p>
+      
+    <article>
+      
+      <p>In venenatis rutrum arcu eu iaculis. Aliquam erat volutpat. Vestibulum ullamcorper felis ut enim condimentum, nec faucibus ipsum imperdiet. Vestibulum feugiat dui sed dictum fringilla. In tristique ipsum sit amet varius pellentesque. Proin ante felis, auctor et varius eget, fermentum quis urna. Integer sed euismod quam. Nullam magna erat, porta ut porta quis, scelerisque ut arcu. Phasellus rutrum tortor eget lacus accumsan, ut placerat velit pharetra. Mauris volutpat quam eu aliquam gravida. Nulla molestie auctor justo sit amet blandit. Phasellus in eros nec risus semper venenatis a id sapien. Integer et varius augue, at ultricies ligula. Pellentesque lacinia augue lectus, et tempor ex convallis in. Vestibulum eget massa augue.
+        
+      <p>In dignissim libero ac elit feugiat feugiat. Donec laoreet augue quis auctor lobortis. Donec convallis a ligula nec pellentesque. Nam ac fermentum felis. Curabitur turpis velit, ultricies feugiat laoreet nec, tempus sit amet nisi. Suspendisse sed arcu sem. Quisque non dolor dui. Vivamus vitae consectetur dolor. Quisque in dolor a elit dignissim rhoncus. Donec at mollis leo. Morbi nec lacinia enim, sit amet celerisque ipsum. Suspendisse rhoncus leo in suscipit fringilla.</p>
+      <img src="https://i.imgur.com/MW9lWlf.jpg" alt="lagoon" align="center">    
+      <p>Phasellus eu condimentum quam, imperdiet ullamcorper lorem. Etiam venenatis dui quam, id convallis sem accumsan in. Mauris maximus nisl sed ipsum iaculis, non egestas erat maximus. Aliquam aliquam lorem luctus ligula iaculis, vitae imperdiet tellus eleifend. Integer viverra lorem tincidunt nulla fringilla, et dignissim urna lacinia. Morbi eleifend commodo est, pellentesque egestas dolor venenatis at. Aliquam id lectus at arcu rhoncus malesuada ut non quam. Sed eu maximus ligula. Donec cursus iaculis sodales.
+    </article>
+    <p>
+      <div class="bottom-reaction">
+		       <div class="platform" style="margin-left:87px">
+		         <a href="#">Design</a> 
+		         <a href="#">Sketch</a> 
+		         <a href="#">Photoshop</a> 
+		         <a href="#">UI</a> 
+		         <a href="#">UX</a> 
+		       </div>
+			   <div class="reaction-dup">
+			      <a href="#" style="text-decoration:none; color:red; margin-right:-10px"> 	   &#x2764 125 likes</a>
+			      <a href="#" style="text-decoration:none; color:#000"><span class="point2"    ><b>&#8729</b></span> 		&#128172 6 comments</a>
+			      <a href="#" style="text-decoration:none; color:#000"><span class="point2"	   ><b>&#8729</b></span>		&#8631 Share</a>
+			          <p>
+			   </div>
+	  </div>
+    
+    <div class="comment-section" style="float:left">
+    	<form>
+	      <input type="text" name="comment" placeholder="Write a response" />
+	       <button type="submit" style="" name="submit">Publish</button>
+	    </form>
+    </div>
+
+    <div style="float:left; height: 100px; width: 100%; background-color: #fff; margin-top: 20px; margin-bottom: 20px">
+    	<img src="https://i.imgur.com/Fi8T5iM.png" alt="Avatar" class="avatar" style="width:30px; height:30px; float:left">
+    		<span style="background-color: #cad; width: 20%; height: 30px; float:left;margin-top:30px;margin-bottom: 20px; border-radius:20px; padding:10px; font-size: 13px">
+    			Nam ac fermentum felis. Curabitur turpis velit, ultricies feugiat laoreet nec
+    		</span>
+      </div>
+      <div style="float:left; height: 100px; width: 100%; background-color: #fff; margin-top: 20px; margin-bottom: 20px">
+    	<img src="https://i.imgur.com/M0bXYuO.png" alt="Avatar" class="avatar" style="width:30px; height:30px; float:left">
+    		<span style="background-color: #cad; width: 20%; height: 25px; float:left;margin-top:30px;margin-bottom: 20px; border-radius:20px;font-size: 13px; padding:10px">
+    			Nam ac fermentum felis. Curabitur turpis velit, ultricies feugiat laoreet nec
+    		</span>
+      </div>
+      <div style="float:left; height: 100px; width: 100%; background-color: #fff; margin-top: 20px; margin-bottom: 20px">
+    	<img src="https://i.imgur.com/Fi8T5iM.png" alt="Avatar" class="avatar" style="width:30px; height:30px; float:left">
+    		<span style="background-color: #cad; width: 20%; height: 25px; float:left;margin-top:30px;margin-bottom: 20px; border-radius:20px; padding:10px;font-size: 13px">
+    			Nam ac fermentum felis. Curabitur turpis velit, ultricies feugiat laoreet nec
+    		</span>
+      </div>
+    </div>
+    <hr class="bottom-hr">
+    <p>
+  <div class="pre-nex" style="margin:50px 120px 50px 120px">
+      <span style="float: left; height:50px"><a href="#" class="previous round">&#8249;</a><div style="float:right; margin-left: 5px">
+      <p style="font-size: 15px">Previous article</p><br />Design circulation</div></span>
+    
+       <span style="float: right"><div style="float:left"><p style="font-size: 15px">Next article</p><br />True self of a designer</div><a href="#" class="next round" style="
+       	margin-left:5px">&#8250;</a></span>
+  </div>
+  <nav class="footer">
+Copyright � 2015 Ilja Miskov
+<p><em>The only way to great work is to love what you do</em>
+	<!--  <div>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+	</div> -->
+  </nav>
+</body>
+</html>
