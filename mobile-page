@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mobile-page</title>
 /*resetting browser default style*/
 /* 
 html5doctor.com Reset Stylesheet
@@ -101,11 +104,6 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
-
-
-
-
 
 
 
@@ -501,3 +499,111 @@ img{
     background-color: #ccc;
 }
 
+
+</head>
+<body>
+	<div class="outline">
+	<a href="#">
+		<div class="menu-icon">
+			<div class="line">
+				<hr class="hr1"><br />
+				<hr class="hr2"><br />
+				<hr class="hr3">
+			</div>
+		</div>
+	</a>
+	<div class="sm-icons">
+		<a href="#"><img src="facebook.svg" class="fa"></a>
+		<a href="#"><img src="twitter-logo-silhouette.svg" class="tw"></a>
+		<a href="#"><img src="logo-linkedin.svg" class="li"></a>
+		
+	</div>
+			<div class="img">
+				<img src="https://i.imgur.com/93sYBwZ.jpg">
+				<div class="author">
+					<b>Alli Ibrahim</b><br />
+					<div class="job" style="font-size: 15px">Creative Designer
+					</div>
+					<div class="follow" style="color: #0c0; font-size: 13px">
+						<a href="#"> follow him:</a>
+					</div>
+					<div class="follow-line">
+						<hr>
+					</div>
+				</div>
+			</div>
+
+			<div class="response-div">
+				<div class="responses">
+					<div class="first">
+						<div class="num"><b>150</b></div>
+						<div class="visitor"><b>Visitors</b></div>
+					</div>
+					<div class="second">
+						<div class="num"><b>140</b></div>
+						<div class="place"><b>place stay</b></div>
+					</div>
+					<div class="third">
+						<div class="num"><b>45</b></div>
+						<div class="review"><b>Reviews</b></div>
+					</div>
+				</div>
+			</div>
+			<div class="interest"><p>Interested in:</p></div>
+			<div class="interest-line"><hr></div>
+			<div class="content">
+				<a href="#">
+				<div class="fashion">
+					<p>Fashion</p>
+				</div>
+				</a>
+				<a href="#">
+				<div class="music">
+					<p>Music</p>
+				</div>
+				</a>
+				<a href="#">
+				<div class="tech">
+					<p>Tech</p>
+				</div>
+				</a>
+				<a href="#">
+				<div class="art">
+					<p>Art</p>
+				</div>
+				</a>
+				<a href="#">
+				<div class="travel">
+					<p>Art</p>
+				</div>
+				</a>
+				<a href="#">
+				<div class="exchange">
+					<p>Exchange</p>
+				</div>
+				</a>
+			</div>
+		<nav class="bottom-nav">
+			<div class="bottom-content">
+				<a href="#"><img src="https://i.imgur.com/3E1SBly.png" class="home-icon"></a>
+				<a href="#"><img src="https://i.imgur.com/rhi9e5D.png" class="search-icon"></a>
+				<a href="#"><img src="https://i.imgur.com/93sYBwZ.jpg" class="alli-icon"></a>
+				<a href="#"><img src="https://i.imgur.com/GLlJmuw.png" class="notification-icon"></a>
+				<a href="#">
+					<div class="menu-icon">
+						<div class="menu-icon1">
+							
+						</div>
+						<div class="menu-icon2">
+							
+						</div>
+						<div class="menu-icon3">
+							
+						</div>
+					</div>
+			    </a>
+			</div>
+		</nav>
+	</div>
+</body>
+</html>
