@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mobile-blog</title>
+<link rel="stylesheet "type="text/css" href="kolapo.css">
+<style type="text/css">
+body{
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
+	font-size: 23px;
+	padding:350px 20px 0 50px;
+}
+span a{
+	color: #cc6633;
+	text-decoration: none;
+}
+.message{
+
+	font-size:17px;
+	padding-top: 100px; 
+}
+.message a{
+	text-decoration: none;
+	color:#cc6633;
+	padding: 10px;
+}
+</style>
+<body>
+<u>Hi</u>
+<p>My name is Kolapo Oni. I am a Game Designer & Writer with android mobile app development experience.<br />I am currently making a game called <span><a href="#"> Fading</a></span>.
+<p>I love <span><a href="#"> music</a></span>, art & <span><a href="#"> photography</a></span>. I live in Lagos, Nigeria.
+
+<p>
+	<div class="message">
+		<a href="#"> email</a> <a href="#">twitter</a> <a href="#">blog <a href="#">github</a> <a href="#">google play</a> <a href="#">itch</a>
+	</div>
+</body>
+</html>
