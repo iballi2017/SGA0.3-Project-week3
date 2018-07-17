@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><title>Mobile-page</title>
+<style>
 /*resetting browser default style*/
 /* 
 html5doctor.com Reset Stylesheet
@@ -499,7 +500,7 @@ img{
     background-color: #ccc;
 }
 
-
+</style>
 </head>
 <body>
 	<div class="outline">
