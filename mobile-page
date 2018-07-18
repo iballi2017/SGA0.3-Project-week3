@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head><title>Mobile-page</title>
-<style>
+<!-- <link rel="stylesheet "type="text/css" href="mobilepage.css"> -->
+<style rel="stylesheet" type="text/css">
 /*resetting browser default style*/
 /* 
 html5doctor.com Reset Stylesheet
@@ -131,6 +132,36 @@ a:hover{
     left: 30%;
     margin-bottom: 20px;
 }
+.outline .fbk{
+    position: absolute;
+    width:25px;
+    height: 25px;
+    opacity: 0.5;
+    margin: 85px 0 0 360px;
+}
+.outline .fbk:hover{
+    opacity: 1;
+}
+.outline .twi{
+    position: absolute;
+    width:25px;
+    height: 25px;
+    opacity: 0.5;
+    margin: 120px 0 0 360px;
+}
+.outline .twi:hover{
+    opacity: 1;
+}
+.outline .lin{
+    position: absolute;
+    width:25px;
+    height: 25px;
+    opacity: 0.5;
+    margin: 155px 0 0 360px;
+}
+.outline .lin:hover{
+    opacity: 1;
+}
 .menu-icon{
     background-color: #000;
     width:50px;
@@ -185,7 +216,7 @@ img{
     margin-top:15px;
     margin-bottom: 15px;
  }
- .follow-line{
+.follow-line{
     position:relative;
     margin-left: 64px;
     margin-top:-25px;
@@ -198,6 +229,9 @@ img{
     width: 100%;
     height: 120px;
 }
+.outline .response-div a{
+ text-decoration: none;
+}
 .outline .response-div .responses .first{
     position: absolute;
     margin: 20px 0 0 60px;
@@ -207,11 +241,12 @@ img{
     font-size: 20px;
 }
 .outline .response-div .responses .first .visitor{
-    color: #ccc;
+    color: #000;
+    opacity: 0.8;
 }
 .outline .response-div .responses .first .visitor:hover{
-    color: #000;
-    font-size: 20px;
+    opacity: 1;
+    font-size: 18px;
 }
 .outline .response-div .responses .first .num{
     font-size: 20px;
@@ -226,12 +261,12 @@ img{
      font-size: 20px;
 }
 .outline .response-div .responses .second .place{
-    color: #ccc;
-   
+    color: #000;
+    opacity: 0.8;
 }
 .outline .response-div .responses .second .place:hover{
-    color: #000;
-    font-size: 20px;
+    opacity: 1;
+    font-size: 18px;
 }
 .outline .response-div .responses .second .num{
     font-size: 20px;
@@ -245,37 +280,18 @@ img{
      font-size: 20px;
 }
 .outline .response-div .responses .third .review{
-    color: #ccc;
+    color: #000;
+    opacity: 0.8
 }
 .outline .response-div .responses .third .review:hover{
-    color: #000;
-    font-size: 20px;
+    opacity: 1;
+    font-size: 18px;
 }
 .outline .response-div .responses .third .num{
     font-size: 20px;
 }
 .interest{
     position: absolute;
-}
-.sm-icons{
-    position: absolute;
-    opacity: 0.3;
-    margin-top: 20px;
-}
-.sm-icons .fa{
-    margin-top: 30px;
-    margin-left:370px;
-    width:20px;
-}
-.sm-icons .tw{
-    margin-top: -60px;
-    margin-left:370px;
-    width:20px;
-}
-.sm-icons .li{
-    margin-top: -60px;
-    margin-left:370px;
-    width:20px;
 }
 .interest{
     position: absolute;
@@ -299,7 +315,6 @@ img{
     width:100px;
     height: 100px;
     margin: 290px 0 0 60px;
-
 }
 .fashion:hover{
     border: 1px solid #ff0;  
@@ -441,20 +456,20 @@ img{
     height: 30px;
     position: absolute;
     margin: 100px 0 0 25px;
+    opacity: 0.8;
 }
 .bottom-nav a .home-icon:hover{
-    margin: 100px 0 0 30px;
-    border: 1px solid #ff0;
+    opacity: 1;
 }
 .bottom-nav .search-icon{
     width: 30px;
     height: 30px;
     position: absolute;
     margin: 100px 0 0 100px;
+    opacity: 0.8;
 }
 .bottom-nav a .search-icon:hover{
-    margin: 100px 0 0 105px;
-    border: 1px solid #ff0;
+    opacity: 1;
 }
 .bottom-nav a .alli-icon{
     width: 40px;
@@ -463,10 +478,10 @@ img{
     margin: 100px 0 0 175px;
     border-radius: 15px;
     border-style: inset;
+    opacity: 0.8;
 }
 .bottom-nav a .alli-icon:hover{
-    margin: 100px 0 0 180px;
-    border: 1px solid #ff0;
+    opacity: 1;
 }
 .bottom-nav a .notification-icon{
     width: 40px;
@@ -475,10 +490,10 @@ img{
     margin: 100px 0 0 250px;
     border-radius: 15px;
     border-style: inset;
+    opacity: 0.8;
 }
 .bottom-nav a .notification-icon:hover{
-    margin: 100px 0 0 255px;
-    border: 1px solid #ff0;
+    opacity: 1;
 }
 .bottom-nav a .menu-icon{
     width: 40px;
@@ -486,10 +501,10 @@ img{
     position: absolute;
     background-color: #fff;
     margin: 113px 0 0 325px;
+    opacity: 0.8;
 }
 .bottom-nav a .menu-icon:hover{
-    margin: 118px 0 20px 330px;
-    border: 1px solid #ff0;
+    opacity: 1;
 }
 .bottom-nav .menu-icon .menu-icon1{
     width: 9px;
@@ -499,7 +514,7 @@ img{
     border-radius: 20px;
     border-style: solid;
     border-color: red;
-    background-color: #ccc;
+    background-color: #000;
 }
 .bottom-nav .menu-icon .menu-icon2{
     width: 9px;
@@ -509,7 +524,7 @@ img{
     border-radius: 20px;
     border-style: solid;
     border-color: red;
-    background-color: #ccc;
+    background-color: #000;
 }
 .bottom-nav .menu-icon .menu-icon3{
     width: 9px;
@@ -519,7 +534,7 @@ img{
     border-radius: 20px;
     border-style: solid;
     border-color: red;
-    background-color: #ccc;
+    background-color: #000;
 }
 
 
@@ -527,107 +542,108 @@ img{
 </head>
 <body>
 	<div class="outline">
-	<a href="#">
-		<div class="menu-icon">
-			<div class="line">
-				<hr class="hr1"><br />
-				<hr class="hr2"><br />
-				<hr class="hr3">
-			</div>
-		</div>
-	</a>
-	<div class="sm-icons">
-		<a href="#"><img src="facebook.svg" class="fa"></a>
-		<a href="#"><img src="twitter-logo-silhouette.svg" class="tw"></a>
-		<a href="#"><img src="logo-linkedin.svg" class="li"></a>
-		
-	</div>
-			<div class="img">
-				<img src="https://i.imgur.com/93sYBwZ.jpg">
-				<div class="author">
-					<b>Alli Ibrahim</b><br />
-					<div class="job" style="font-size: 15px">Creative Designer
-					</div>
-					<div class="follow" style="color: #0c0; font-size: 13px">
-						<a href="#"> follow him:</a>
-					</div>
-					<div class="follow-line">
-						<hr>
+		<a href="#"><img src="https://i.imgur.com/lGj4wbr.png" class="fbk"></a>
+		<a href="#"><img src="https://i.imgur.com/5prJWJC.png" class="twi"></a>
+		<a href="#"><img src="https://i.imgur.com/TVswxCT.png" class="lin"></a>
+			<a href="#">
+				<div class="menu-icon">
+					<div class="line">
+						<hr class="hr1"><br />
+						<hr class="hr2"><br />
+						<hr class="hr3">
 					</div>
 				</div>
-			</div>
-
-			<div class="response-div">
-				<div class="responses">
-					<div class="first">
-						<div class="num"><b>150</b></div>
-						<div class="visitor"><b>Visitors</b></div>
-					</div>
-					<div class="second">
-						<div class="num"><b>140</b></div>
-						<div class="place"><b>place stay</b></div>
-					</div>
-					<div class="third">
-						<div class="num"><b>45</b></div>
-						<div class="review"><b>Reviews</b></div>
-					</div>
-				</div>
-			</div>
-			<div class="interest"><p>Interested in:</p></div>
-			<div class="interest-line"><hr></div>
-			<div class="content">
-				<a href="#">
-				<div class="fashion">
-					<p>Fashion</p>
-				</div>
-				</a>
-				<a href="#">
-				<div class="music">
-					<p>Music</p>
-				</div>
-				</a>
-				<a href="#">
-				<div class="tech">
-					<p>Tech</p>
-				</div>
-				</a>
-				<a href="#">
-				<div class="art">
-					<p>Art</p>
-				</div>
-				</a>
-				<a href="#">
-				<div class="travel">
-					<p>Travel</p>
-				</div>
-				</a>
-				<a href="#">
-				<div class="exchange">
-					<p>Exchange</p>
-				</div>
-				</a>
-			</div>
-		<nav class="bottom-nav">
-			<div class="bottom-content">
-				<a href="#"><img src="https://i.imgur.com/3E1SBly.png" class="home-icon"></a>
-				<a href="#"><img src="https://i.imgur.com/rhi9e5D.png" class="search-icon"></a>
-				<a href="#"><img src="https://i.imgur.com/93sYBwZ.jpg" class="alli-icon"></a>
-				<a href="#"><img src="https://i.imgur.com/GLlJmuw.png" class="notification-icon"></a>
-				<a href="#">
-					<div class="menu-icon">
-						<div class="menu-icon1">
-							
-						</div>
-						<div class="menu-icon2">
-							
-						</div>
-						<div class="menu-icon3">
-							
+			</a>
+					<div class="img">
+						<img src="https://i.imgur.com/93sYBwZ.jpg">
+						<div class="author">
+							<b>Alli Ibrahim</b><br />
+							<div class="job" style="font-size: 15px">Creative Designer
+							</div>
+							<div class="follow" style="color: #0c0; font-size: 13px">
+								<a href="#"> follow him:</a>
+							</div>
+							<div class="follow-line">
+								<hr>
+							</div>
 						</div>
 					</div>
-			    </a>
-			</div>
-		</nav>
+					<div class="response-div">
+						<div class="responses">
+							<div class="first">
+								<div class="num"><b>150</b></div>
+								<a href="#"><div class="visitor"><b>Visitors</b></div></a>
+							</div>
+							<div class="second">
+								<div class="num"><b>140</b></div>
+								<a href="#"><div class="place"><b>Place stay</b></div></a>
+							</div>
+							<div class="third">
+								<div class="num"><b>45</b></div>
+								<a href="#"><div class="review"><b>Reviews</b></div></a>
+							</div>
+						</div>
+					</div>
+					<div class="interest"><p>Interested in:</p></div>
+						<div class="interest-line"><hr></div>
+							<div class="content">
+								<a href="#">
+									<div class="fashion">
+										<p>Fashion</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="music">
+										<p>Music</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="tech">
+										<p>Tech</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="art">
+										<p>Art</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="travel">
+										<p>Travel</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="exchange">
+										<p>Exchange</p>
+									</div>
+								</a>
+								<a href="#">
+									<div class="extra">
+										<p>Extra</p>
+									</div>
+								</a>
+							</div>
+				<nav class="bottom-nav">
+					<div class="bottom-content">
+						<a href="#"><img src="https://i.imgur.com/3E1SBly.png" class="home-icon"></a>
+						<a href="#"><img src="https://i.imgur.com/rhi9e5D.png" class="search-icon"></a>
+						<a href="#"><img src="https://i.imgur.com/93sYBwZ.jpg" class="alli-icon"></a>
+						<a href="#"><img src="https://i.imgur.com/GLlJmuw.png" class="notification-icon"></a>
+						<a href="#">
+							<div class="menu-icon">
+								<div class="menu-icon1">
+									
+								</div>
+								<div class="menu-icon2">
+									
+								</div>
+								<div class="menu-icon3">
+									
+								</div>
+							</div>
+					    </a>
+					</div>
+				</nav>
 	</div>
 </body>
 </html>
