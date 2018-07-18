@@ -214,8 +214,7 @@ img{
     font-size: 20px;
 }
 .outline .response-div .responses .first .num{
-    
-    font-size: 25px;
+    font-size: 20px;
 
 }
 .outline .response-div .responses .second{
@@ -235,8 +234,7 @@ img{
     font-size: 20px;
 }
 .outline .response-div .responses .second .num{
-    
-    font-size: 25px;
+    font-size: 20px;
 }
 .outline .response-div .responses .third{
     position: absolute;
@@ -254,7 +252,7 @@ img{
     font-size: 20px;
 }
 .outline .response-div .responses .third .num{
-    font-size: 25px;
+    font-size: 20px;
 }
 .interest{
     position: absolute;
@@ -303,6 +301,9 @@ img{
     margin: 290px 0 0 60px;
 
 }
+.fashion:hover{
+    border: 1px solid #ff0;  
+}
 .fashion p{
     background-color: #000;
     opacity: 0.8;
@@ -321,6 +322,9 @@ img{
     width:100px;
     height: 100px;
     margin: 10px 0 0 60px;
+}
+.music:hover{
+    border: 1px solid #ff0;  
 }
 .music p{
     background-color: #000;
@@ -341,6 +345,9 @@ img{
     height: 100px;
     margin: -100px 0 0 170px;
 }
+.tech:hover{
+    border: 1px solid #ff0;  
+}
 .tech p{
     background-color: #000;
     opacity: 0.8;
@@ -352,6 +359,7 @@ img{
 .art{
     background-image: url("https://i.imgur.com/r0LQL2S.jpg");
     background-size: 100% 100%;
+    background-repeat:no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -359,6 +367,9 @@ img{
     width:100px;
     height: 100px;
     margin: -210px 0 0 170px;
+}
+.art:hover{
+    border: 1px solid #ff0;  
 }
 .art p{
     background-color: #000;
@@ -380,6 +391,9 @@ img{
     height: 100px;
     margin: -100px 0 0 280px;
 }
+.travel:hover{
+    border: 1px solid #ff0;  
+}
 .travel p{
     background-color: #000;
     opacity: 0.8;
@@ -397,7 +411,10 @@ img{
     border-radius: 10px;
     width:100px;
     height: 100px;
-    margin: 10px 0 0 290px;
+    margin: 10px 0 0 280px;
+}
+.exchange:hover{
+    border: 1px solid #ff0;  
 }
 .exchange p{
     background-color: #000;
@@ -427,6 +444,7 @@ img{
 }
 .bottom-nav a .home-icon:hover{
     margin: 100px 0 0 30px;
+    border: 1px solid #ff0;
 }
 .bottom-nav .search-icon{
     width: 30px;
@@ -436,6 +454,7 @@ img{
 }
 .bottom-nav a .search-icon:hover{
     margin: 100px 0 0 105px;
+    border: 1px solid #ff0;
 }
 .bottom-nav a .alli-icon{
     width: 40px;
@@ -447,6 +466,7 @@ img{
 }
 .bottom-nav a .alli-icon:hover{
     margin: 100px 0 0 180px;
+    border: 1px solid #ff0;
 }
 .bottom-nav a .notification-icon{
     width: 40px;
@@ -458,6 +478,7 @@ img{
 }
 .bottom-nav a .notification-icon:hover{
     margin: 100px 0 0 255px;
+    border: 1px solid #ff0;
 }
 .bottom-nav a .menu-icon{
     width: 40px;
@@ -468,6 +489,7 @@ img{
 }
 .bottom-nav a .menu-icon:hover{
     margin: 118px 0 20px 330px;
+    border: 1px solid #ff0;
 }
 .bottom-nav .menu-icon .menu-icon1{
     width: 9px;
@@ -499,6 +521,7 @@ img{
     border-color: red;
     background-color: #ccc;
 }
+
 
 </style>
 </head>
