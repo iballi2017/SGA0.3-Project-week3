@@ -293,9 +293,9 @@ img{
 }
 .fashion{
     background-image: url("https://i.imgur.com/5WGr3VH.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-  /*  background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
     width:100px;
@@ -313,9 +313,9 @@ img{
 }
 .music{
     background-image: url("https://i.imgur.com/KST1P3Y.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-  /*  background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
     width:100px;
@@ -332,9 +332,9 @@ img{
 }
 .tech{
     background-image: url("https://i.imgur.com/LtaOycO.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-  /*  background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
     width:100px;
@@ -351,9 +351,9 @@ img{
 }
 .art{
     background-image: url("https://i.imgur.com/r0LQL2S.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-  /*  background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
     width:100px;
@@ -371,9 +371,9 @@ img{
 
 .travel{
     background-image: url("https://i.imgur.com/c7UddBG.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-  /*  background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
     width:100px;
@@ -390,9 +390,9 @@ img{
 }
 .exchange{
     background-image: url("https://i.imgur.com/kt04XYu.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-position: center;
-  /*  background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     position: relative;
     border-radius: 10px;
     width:100px;
