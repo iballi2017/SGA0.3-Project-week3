@@ -2,7 +2,7 @@
 <html>
 <head><title>Mobile-page</title>
 <!-- <link rel="stylesheet "type="text/css" href="mobilepage.css"> -->
-<style rel="stylesheet" type="text/css">
+<style rel="stylesheet">
 /*resetting browser default style*/
 /* 
 html5doctor.com Reset Stylesheet
@@ -137,7 +137,7 @@ a:hover{
     width:25px;
     height: 25px;
     opacity: 0.5;
-    margin: 85px 0 0 360px;
+    margin: 70px 0 0 360px;
 }
 .outline .fbk:hover{
     opacity: 1;
@@ -147,7 +147,7 @@ a:hover{
     width:25px;
     height: 25px;
     opacity: 0.5;
-    margin: 120px 0 0 360px;
+    margin: 113px 0 0 360px;
 }
 .outline .twi:hover{
     opacity: 1;
@@ -560,8 +560,8 @@ img{
 							<b>Alli Ibrahim</b><br />
 							<div class="job" style="font-size: 15px">Creative Designer
 							</div>
-							<div class="follow" style="color: #0c0; font-size: 13px">
-								<a href="#"> follow him:</a>
+							<div class="follow" style="color: #ccc; font-size: 13px">
+								follow him:
 							</div>
 							<div class="follow-line">
 								<hr>
