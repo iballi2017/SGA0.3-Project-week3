@@ -252,13 +252,6 @@ img{
        <span style="float: right"><div style="float:left"><p style="font-size: 15px">Next article</p><br />True self of a designer</div><a href="#" class="next round" style="
        	margin-left:5px">&#8250;</a></span>
   </div>
-  <nav class="footer">
-Copyright ï¿½ 2015 Ilja Miskov
-<p><em>The only way to great work is to love what you do</em>
-	<!--  <div>
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-	</div> -->
-  </nav>
+  
 </body>
 </html>
