@@ -217,13 +217,13 @@ img{
 			   </div>
 	  </div>
     
-    <div class="comment-section" style="float:left">
+    <div class="comment-section" style="float:left;margin-bottom:20px">
     	<form>
 	      <input type="text" name="comment" placeholder="Write a response" />
 	       <button type="submit" style="" name="submit">Publish</button>
 	    </form>
     </div>
-
+    
     
     <hr class="bottom-hr">
     <p>
