@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  
-  <!--  Meta  -->
-  <meta charset="UTF-8" />
-  <!--<meta name="viewport" content="width=device-width,initial-scale=1"> -->
-<title>blogpage</title>
-  
-  <!--  Styles  -->
-  <!--<link rel="stylesheet" type="text/css" href="index2.css"> -->
-  <link rel="stylesheet" href="blogpage.css">
-  <link rel="stylesheet" href="bootsrap.min.css">
-  <!--<link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/fonts-awesome.min.css">-->
-  
-  <style type="text/css">
-  body{
-  background-color: #fff;
-}
-hr{
-  width: 100px;
-  margin-left: 620px;
-}
-.bottom-hr{
-  width: 100%;
-  margin:0;
-  border-width: 3px;
-}
-a{
-  text-decoration: none;
-  display:inline-block;
-  padding: 8px 16px;
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="new_site_using_bootstrap.css">
+<style>
+body{
+    background-color:#ccc;
 }
 nav{
   background-color:#fff;
   width:100%;
-  height: 40px;
+  height: 25%;
+  padding-top:0.5%;
+  margin-bottom: -2%;
 }
 .nav-menu{
   float:right;
+  margin-top: 0.3%;
+  margin-bottom: -0.3%;
 }
 .nav-menu a{
   text-decoration: none;
@@ -48,55 +31,55 @@ nav{
   color:#00f;
 }
 .heading{
-  background-color:#fff;
+  background-color:#ccc;
   font-family: arial;
   font-size: 50px;
   text-align:center;
   margin:50px 100px 0 100px;
 }
 .heading .previous{
-  background-color:#f1f1f1;
+  background-color:#ccc;
   color:#000;
   border:30px;
 }
 .heading .next{
-  background-color:#f1f1f1;
+  background-color:#ccc;
   color:#000;
   border:30px;
 }
 .reaction{
-  background-color:#fff;
+  background-color:#ccc;
   font-family: arial;
   font-size: 11px;
   float:center;
-  margin-bottom:100px;
-  padding-left: 515px;
-  padding-top: -50px;
+  margin-bottom:40px;
+  margin-left: 35%;
+  /*padding-left: 515px;
+  padding-top: -50px;*/
 }
 .point1{
-  margin-left:20px;
+  margin:20px;
 }
 .point2{
-  margin-right:20px;
+  margin:20px;
 }
-article{
-  text-align:justify;
-  margin: -50px 100px 0 100px;
-  font-size: 20px;
-  line-height: 40px;
+.lead{
+    text-align: justify;
 }
 img{
-  height:400px;
-  width:90%;
-  margin:20px;
+  height:40%;
+  width:40%;
+  margin:1% 1.5% 1% 0;
+  float: left;
 }
 .bottom-reaction{
   height:50px;
-  background-color:#fff;
+  background-color:#ccc;
   font-family: arial;
   font-size: 11px;
   float:0;
   margin-bottom:50px;
+  margin-left: -8%;
   padding-left: 0px;
   padding-top: 30px;
 }
@@ -105,7 +88,7 @@ img{
 }
 .bottom-reaction .reaction-dup{
   float:right;
-  margin-right:86px;
+  margin-right:0;
 }
 .bottom-reaction .reaction-dup a:hover{
   color:#00f;
@@ -115,125 +98,105 @@ img{
   border-radius:5px;
   margin:5px;
 }
-
-
 .comment-section{
   float:left;
-  margin:-30px 0 0 100px;
+  margin:-30px 0 0 1%;
 }
 .comment-section input{
   border-radius:10px;
-  height:20px;
+  height:10%;
   width:300px;
   padding:10px;
   }
 .comment-section button{
   background-color:rgba(0,0,200,0.3);
   border-radius:8px;
-  height:40px;
-  width:60px
+  height:6%px;
+  width:17.6%;
 }
 .comment-section button:hover{
   background-color:rgba(0,100,200,0.3);
 }
-.pre-nex {
-  background-color:#fff;
-  font-family: arial;
-  font-size: 17px;
-  text-align:center;
-  margin:50px 100px 0 100px;
+.see-comment{
+    float: left;
 }
-.pre-nex .previous{
-  background-color:#f1f1f1;
-  color:#000;
-  border:30px;
+.bottom-nav{
+    background-color: #000;
+    height: 40%;
+    width: 100%;
+    color: #fff;
 }
-.pre-nex .next{
-  background-color:#f1f1f1;
-  color:#000;
-  border:30px;
+.bottom-nav{
+    padding-left: 1%;
 }
-.footer{
-  width: 100%;
-  height: 60PX;
-  background-color: #ccc;
-  margin-top:140px;
-  color:#000;
-  padding: 60px;
-}
-.footer p{
-  margin-top: 5px;
-  color: #ccc2344;
-}
-  </style>
+</style>
 </head>
-  <body>
-    <nav>
-      <a href="#" style="height:40px; font-size:35px; margin-left:80px; color:#000">&#9929</a>
-      <div class="nav-menu" style="margin-right:80px">
-        <a href="#">Work</a>
-        <a href="#">About</a>
-        <a href="#">Blog</a>
-        <a href="#">Contract</a>
-      </div>
-    </nav>
-    <div class="heading">
-      <span style="float: left; height:50px"><a href="#" class="previous round">&#8249;</a></span>
-     Goodbye, Photoshop
-       <span style="float: right"><a href="#" class="next round">&#8250;</a></span>
+<body>
+        <nav>
+                <a href="#" style="height:40px; font-size:35px; margin-left:80px; color:#000">&#9929</a>
+                <div class="nav-menu" style="margin-right:80px">
+                  <a href="#">Work</a>
+                  <a href="#">About</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Contract</a>
+                </div>
+        </nav>    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="heading">
+                            <span style="float: left; height:50px"><a href="#" class="previous round">&#8249;</a></span>
+                           Goodbye, Photoshop
+                             <span style="float: right"><a href="#" class="next round">&#8250;</a></span>
+                    </div>
+                    <hr>
+                    <div class="reaction">
+                        August 29, 2015 
+                        <span class="point1"><b>&#8729</b></span>
+                        <a href="#" style="text-decoration:none; color:red; margin-right:-10px"> &#x2764 125 likes</a>
+                        <a href="#" style="text-decoration:none; color:#000"><span class="point2"><b>&#8729</b></span> &#128172 6 comments</a>
+                    </div>
+                    <p>
+                        <article>
+                                
+                            <p class="lead">In venenatis rutrum arcu eu iaculis. Aliquam erat volutpat. Vestibulum ullamcorper felis ut enim condimentum, nec faucibus ipsum imperdiet. Vestibulum feugiat dui sed dictum fringilla. In tristique ipsum sit amet varius pellentesque. Proin ante felis, auctor et varius eget, fermentum quis urna. Integer sed euismod quam. Nullam magna erat, porta ut porta quis, scelerisque ut arcu. Phasellus rutrum tortor eget lacus accumsan, ut placerat velit pharetra. Mauris volutpat quam eu aliquam gravida. Nulla molestie auctor justo sit amet blandit. Phasellus in eros nec risus semper venenatis a id sapien. Integer et varius augue, at ultricies ligula. Pellentesque lacinia augue lectus, et tempor ex convallis in. Vestibulum eget massa augue.</p>
+                            <img class="image-responsive" src="https://i.imgur.com/MW9lWlf.jpg" alt="Photoshop-image" align="center">  
+                            <p class="lead">In dignissim libero ac elit feugiat feugiat. Donec laoreet augue quis auctor lobortis. Donec convallis a ligula nec pellentesque. Nam ac fermentum felis. Curabitur turpis velit, ultricies feugiat laoreet nec, tempus sit amet nisi. Suspendisse sed arcu sem. Quisque non dolor dui. Vivamus vitae consectetur dolor. Quisque in dolor a elit dignissim rhoncus. Donec at mollis leo. Morbi nec lacinia enim, sit amet celerisque ipsum. Suspendisse rhoncus leo in suscipit fringilla.</p>  
+                            <p class="lead">Phasellus eu condimentum quam, imperdiet ullamcorper lorem. Etiam venenatis dui quam, id convallis sem accumsan in. Mauris maximus nisl sed ipsum iaculis, non egestas erat maximus. Aliquam aliquam lorem luctus ligula iaculis, vitae imperdiet tellus eleifend. Integer viverra lorem tincidunt nulla fringilla, et dignissim urna lacinia. Morbi eleifend commodo est, pellentesque egestas dolor venenatis at. Aliquam id lectus at arcu rhoncus malesuada ut non quam. Sed eu maximus ligula. Donec cursus iaculis sodales.</p>
+                        </article>
+                    </p>
+                    <p>
+                            <div class="bottom-reaction">
+                                     <div class="platform" style="margin-left:87px">
+                                       <a href="#">Design</a> 
+                                       <a href="#">Sketch</a> 
+                                       <a href="#">Photoshop</a> 
+                                       <a href="#">UI</a> 
+                                       <a href="#">UX</a> 
+                                     </div>
+                                     <div class="reaction-dup">
+                                        <a href="#" style="text-decoration:none; color:red; margin-right:-10px">&#x2764 125 likes</a>
+                                        <a href="#" style="text-decoration:none; color:#000"><span class="point2"><b>&#8729</b></span> 		&#128172 6 comments</a>
+                                        <a href="#" style="text-decoration:none; color:#000"><span class="point2"><b>&#8729</b></span>		&#8631 Share</a>
+                                    </div>
+                            </div>
+                    </p>
+                    <div class="comment-section" style="float:left;margin-bottom:20px">
+                            <form>
+                              <input type="text" name="comment" placeholder="Write a response" />
+                               <button type="submit" name="submit">Publish</button>
+                            </form>
+                    </div>
+                    <div class="see-comment">
+                    <p><a href="#">Click&#8595;</a> to view comments</p>
+                    </div>
+                    
+                    
+            </div>
+        </div>
     </div>
-    <hr>
-    <div class="reaction">
-      August 29, 2015 
-      <span class="point1"><b>&#8729</b></span>
-      <a href="#" style="text-decoration:none; color:red; margin-right:-10px"> &#x2764 125 likes</a>
-      <a href="#" style="text-decoration:none; color:#000"><span class="point2"><b>&#8729</b></span> &#128172 6 comments</a>
-     
-    </div>
-    <p>
-      
-    <article>
-      
-      <p>In venenatis rutrum arcu eu iaculis. Aliquam erat volutpat. Vestibulum ullamcorper felis ut enim condimentum, nec faucibus ipsum imperdiet. Vestibulum feugiat dui sed dictum fringilla. In tristique ipsum sit amet varius pellentesque. Proin ante felis, auctor et varius eget, fermentum quis urna. Integer sed euismod quam. Nullam magna erat, porta ut porta quis, scelerisque ut arcu. Phasellus rutrum tortor eget lacus accumsan, ut placerat velit pharetra. Mauris volutpat quam eu aliquam gravida. Nulla molestie auctor justo sit amet blandit. Phasellus in eros nec risus semper venenatis a id sapien. Integer et varius augue, at ultricies ligula. Pellentesque lacinia augue lectus, et tempor ex convallis in. Vestibulum eget massa augue.
-        
-      <p>In dignissim libero ac elit feugiat feugiat. Donec laoreet augue quis auctor lobortis. Donec convallis a ligula nec pellentesque. Nam ac fermentum felis. Curabitur turpis velit, ultricies feugiat laoreet nec, tempus sit amet nisi. Suspendisse sed arcu sem. Quisque non dolor dui. Vivamus vitae consectetur dolor. Quisque in dolor a elit dignissim rhoncus. Donec at mollis leo. Morbi nec lacinia enim, sit amet celerisque ipsum. Suspendisse rhoncus leo in suscipit fringilla.</p>
-      <img src="https://i.imgur.com/MW9lWlf.jpg" alt="lagoon" align="center">    
-      <p>Phasellus eu condimentum quam, imperdiet ullamcorper lorem. Etiam venenatis dui quam, id convallis sem accumsan in. Mauris maximus nisl sed ipsum iaculis, non egestas erat maximus. Aliquam aliquam lorem luctus ligula iaculis, vitae imperdiet tellus eleifend. Integer viverra lorem tincidunt nulla fringilla, et dignissim urna lacinia. Morbi eleifend commodo est, pellentesque egestas dolor venenatis at. Aliquam id lectus at arcu rhoncus malesuada ut non quam. Sed eu maximus ligula. Donec cursus iaculis sodales.
-    </article>
-    <p>
-      <div class="bottom-reaction">
-		       <div class="platform" style="margin-left:87px">
-		         <a href="#">Design</a> 
-		         <a href="#">Sketch</a> 
-		         <a href="#">Photoshop</a> 
-		         <a href="#">UI</a> 
-		         <a href="#">UX</a> 
-		       </div>
-			   <div class="reaction-dup">
-			      <a href="#" style="text-decoration:none; color:red; margin-right:-10px"> 	   &#x2764 125 likes</a>
-			      <a href="#" style="text-decoration:none; color:#000"><span class="point2"    ><b>&#8729</b></span> 		&#128172 6 comments</a>
-			      <a href="#" style="text-decoration:none; color:#000"><span class="point2"	   ><b>&#8729</b></span>		&#8631 Share</a>
-			          <p>
-			   </div>
-	  </div>
-    
-    <div class="comment-section" style="float:left;margin-bottom:20px">
-    	<form>
-	      <input type="text" name="comment" placeholder="Write a response" />
-	       <button type="submit" style="" name="submit">Publish</button>
-	    </form>
-    </div>
-    
-    
-    <hr class="bottom-hr">
-    <p>
-  <div class="pre-nex" style="margin:50px 120px 50px 120px">
-      <span style="float: left; height:50px"><a href="#" class="previous round">&#8249;</a><div style="float:right; margin-left: 5px">
-      <p style="font-size: 15px">Previous article</p><br />Design circulation</div></span>
-    
-       <span style="float: right"><div style="float:left"><p style="font-size: 15px">Next article</p><br />True self of a designer</div><a href="#" class="next round" style="
-       	margin-left:5px">&#8250;</a></span>
-  </div>
-  
+<nav class="bottom-nav">
+<p>Copyright © 2018 ####. The #### is not responsible for the content of external sites. Read about our approach to external linking.</p>
+</nav>
 </body>
 </html>
