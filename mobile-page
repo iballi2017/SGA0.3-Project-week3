@@ -35,6 +35,7 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 article,aside,details,figcaption,figure,
@@ -589,37 +590,37 @@ img{
 							<div class="content">
 								<a href="#">
 									<div class="fashion">
-										<p>Fashion</p>
+										<p><b>Fashion</b></p>
 									</div>
 								</a>
 								<a href="#">
 									<div class="music">
-										<p>Music</p>
+										<p><b>Music</b></p>
 									</div>
 								</a>
 								<a href="#">
 									<div class="tech">
-										<p>Tech</p>
+										<p><b>Tech</b></p>
 									</div>
 								</a>
 								<a href="#">
 									<div class="art">
-										<p>Art</p>
+										<p><b>Art</b></p>
 									</div>
 								</a>
 								<a href="#">
 									<div class="travel">
-										<p>Travel</p>
+										<p><b>Travel</b></p>
 									</div>
 								</a>
 								<a href="#">
 									<div class="exchange">
-										<p>Exchange</p>
+										<p><b>Exchange</b></p>
 									</div>
 								</a>
 								<a href="#">
 									<div class="extra">
-										<p>Extra</p>
+										<p><b>Extra</b></p>
 									</div>
 								</a>
 							</div>
